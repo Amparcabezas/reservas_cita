@@ -1,0 +1,311 @@
+#header nav.navbar {
+  background-color: black !important;
+}
+
+#header .nav-item .nav-link {
+  color: #ffc001;
+}
+
+#header .navbar-toggler {
+  margin: 10px;
+}
+
+#booking {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("http://www.bouldermadrid.com/wp-content/uploads/2015/07/IMG_2060.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#booking::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.booking-form {
+  max-width: 850px;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.booking-form .form-header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffc001;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .booking-form .form-header h1 {
+    font-size: 20px;
+  }
+}
+
+.booking-form > form {
+  background-color: #101113;
+  padding: 15px 20px;
+  border-radius: 3px;
+}
+
+.booking-form .form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.booking-form .form-control {
+  background-color: #f5f5f5;
+  border: none;
+  height: 45px;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: 400;
+  color: #101113;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+  color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+  color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form .form-control::-ms-input-placeholder {
+  color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form .form-control::placeholder {
+  color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+  color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.booking-form select.form-control + .select-arrow {
+  position: absolute;
+  right: 0px;
+  bottom: 6px;
+  width: 32px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  pointer-events: none;
+  color: #101113;
+  font-size: 14px;
+}
+
+.booking-form select.form-control + .select-arrow:after {
+  content: '\279C';
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+  color: #ffc001;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  display: block;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.booking-form .submit-btn {
+  color: #101113;
+  background-color: #ffc001;
+  font-weight: 700;
+  font-size: 15px;
+  height: 50px;
+  border: none;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.booking-form {
+  color: #ffc001;
+}
+
+.booking-form .flatpickr-months .flatpickr-month {
+  background: #ffc001;
+}
+
+.booking-form .flatpickr-weekdays {
+  background: #ffc001;
+}
+
+.booking-form span.flatpickr-weekday {
+  background: #ffc001;
+}
+
+.booking-form .flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month {
+  background: #ffc001;
+}
+
+.booking-form .flatpickr-current-month .flatpickr-monthDropdown-months {
+  background: #ffc001;
+}
+
+.booking-form .flatpickr-day.selected {
+  background: #ffc001;
+  border-color: #ffc001;
+}
+
+.booking-form .flatpickr-day.selected:hover {
+  background: #ffc001;
+  border-color: #ffc001;
+}
+
+.btnCalendar .fc .fc-button-primary {
+  background-color: #ffc001;
+}
+
+.btnCalendar #calendar {
+  margin: 10px auto;
+}
+
+.btnCalendar .fc .fc-toolbar-title {
+  text-transform: uppercase;
+}
+
+body {
+  background-image: url("http://www.bouldermadrid.com/wp-content/uploads/2015/07/IMG_2060.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+}
+
+.section .section-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#canvas {
+  margin-bottom: 20px;
+}
+
+.fc-toolbar-chunk {
+  text-align: center;
+}
+
+.fc-scrollgrid {
+  background-color: white;
+  border: none;
+}
+
+.fc-state-highlight {
+  background: red;
+}
+
+h2 {
+  color: #ffc001;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.cita {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.reservas {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 5%);
+          transform: translate(-50%, 5%);
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.cita h1 {
+  color: #ffc001;
+  font-size: 35px;
+}
+
+.politica-cambios {
+  color: #fff;
+  font-size: 15px;
+}
+
+.cita a {
+  color: #ffc001;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.exito {
+  color: green;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,119 @@
+@import 'componentes/navbar';
+@import 'componentes/booking';
+@import 'componentes/botones';
+
+
+body {
+	background-image: url("http://www.bouldermadrid.com/wp-content/uploads/2015/07/IMG_2060.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+}
+
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+
+#canvas {
+	margin-bottom: 20px;
+}
+
+.fc-toolbar-chunk {
+	text-align: center;
+}
+
+.fc-scrollgrid {
+	background-color: white;
+	border: none;
+}
+
+.fc-state-highlight {
+	background: red;
+}
+
+h2 {
+	color: #ffc001;
+	font-size: 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.cita {
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 20%);
+	padding: 20px;
+	background-color: black;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.reservas {
+
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 5%);
+	padding: 20px;
+	background-color: black;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+}
+
+.cita h1 {
+	color: #ffc001;
+	font-size: 35px;
+}
+
+.politica-cambios {
+	color: #fff;
+	font-size: 15px;
+}
+
+.cita a {
+	color: #ffc001;
+	text-decoration: none;
+}
+
+.error {
+	color: red;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+
+.exito {
+	color: green;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
